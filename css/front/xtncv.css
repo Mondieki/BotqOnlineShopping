@@ -1,0 +1,10 @@
+.pdf
+{
+    padding-bottom: 10px;
+    float: right;
+}
+.pdfmessage
+{
+    float: inherit;
+    font-weight: bold;
+}

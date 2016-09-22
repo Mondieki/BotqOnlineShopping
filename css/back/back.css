@@ -1,0 +1,276 @@
+body{
+	width: 100%;
+	margin: 0px auto;
+}
+
+/*start of header css*/
+#adm_header{
+	background-color: #2196F3;
+	margin-bottom: 0px;
+}
+
+
+#header_navigation{
+	margin-top: 10px;
+}
+
+#header_logo img{
+	width:100px;
+}
+
+@media only screen and (max-width: 768px) {
+    #header_logo {
+    	display: none;
+    }
+}
+
+/*#header_user_image img{
+	width: 60px;
+	height: 50px;
+	border-radius: 100%;
+}*/
+
+#header_user_name p{
+	margin-bottom: 0px;
+	margin-top: 20px;
+}
+#header_logout{
+	margin-top: 20px;
+}
+
+
+
+/* end of header css*/
+
+
+/* Start of naviagtion drawer */
+#navigation_drawer{
+	background-color:#BBDEFB;
+	width:100%;
+	float: left;
+	padding: 0px;
+}
+#navigation_drawer ul{
+	display: block;
+	list-style: none;
+	text-decoration: none;
+	padding: 0px;
+}
+#navigation_drawer li{
+	width: 100%;
+	padding: 0px;
+}
+
+#navigation_drawer{
+	font-size: 20px;
+}
+#navigation_drawer span{
+	margin-right: 10px;
+}
+#navigation_drawer a{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: black;
+	list-style: none;
+	display: block;
+	font-size: 18px;
+	padding: 6px;
+	/*border: 1px solid #5E94D8;*/
+	text-decoration: none;
+	color: black;
+	-moz-transition:color 0.5s,padding-left 1s,font-weight 0.5s,background-color 0.5s;
+	-webkit-transition:color 0.5s,padding-left 1s,font-weight 0.5s,background-color 0.5s;
+	-o-transition:color 0.5s,padding-left 1s,font-weight 0.5s,background-color 0.5s;
+}
+
+#navigation_drawer a:hover{
+	padding-left: 30px;
+	color: white;
+	font-weight: bold;
+	background-color: #448AFF;
+	opacity: 0.8;
+
+}
+
+#navigation_drawer hr{
+	margin-top: 0px;
+	padding: 0px;
+	margin-bottom: 0px;
+}
+
+
+#navigation_drawer span1{
+	padding-left: 10px;
+}
+
+
+
+/*adding th eside toggle bar*/
+
+#navigation_drawer #pageList{
+	width:200px;
+
+}
+
+#navigation_drawer #pageList a{
+}
+
+#navigation_drawer #pageList {
+}
+
+/*End of naviagtion drawer*/
+
+
+/*   --iframe css*/
+
+#contentViewFilter{
+	margin-top: 5px;
+}
+#contentViewFilter #addButton{
+	float: left;
+	width: 10%;
+}
+#contentViewFilter form{
+	margin-left: 5%;
+	float: left;
+	width: 25%;
+}
+#contentViewFilter div{ 
+	float: left;
+	width: 60%;
+}
+#contentViewFilter #filter p{  
+	float: left;
+	width: 10%;
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+
+#contentView{
+	width: 100%;
+	height:570px;
+	border: 0px;
+	margin-top: 10px;
+
+}
+
+
+/*  end of iframe css*/
+
+
+/* add item*/
+
+
+#addItemTable{
+	width: 60%;
+	padding:10px;
+	margin-left: 10%;
+	margin-top: 3%;
+}
+
+#addItemTable input{
+	width: 90%;
+	padding: 5px;
+}
+
+#addItemTable button{
+	text-align: center;
+	margin-left: 10%;
+}
+
+
+
+/*end of add item*/
+
+
+/*  strat addAdmin table*/
+
+#addAdmin{
+	width: 80%;
+	padding:10px;
+	margin-left: 10%;
+	margin-top: 3%;
+	
+}
+
+#addAdmin input{
+	width: 100%;
+}
+#addAdmin button{
+	text-align: center;
+	margin-left: 10%;
+}
+
+
+/*end addAdmin table*/
+
+
+/**/
+
+#ProductDisplay{
+	width: 18%;
+	margin-right: 1%;
+	margin-left: 1%;
+	margin-top: 10px;
+	float: left;
+}
+#ProductDisplay img{
+	width: 100%;
+	height: 125px;
+}
+#ProductDisplay button{
+	float: left;
+	width: 100%;
+}
+#ProductDisplay{}
+
+
+/**/
+
+
+
+/*modify product start*/
+#inputfle{
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+}
+#inputfile .fileUpload{
+position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+
+/*MOdify product end*/
+
+/*name of product backend*/
+.name
+{
+	font-family:"" ;
+	font-size: 20px;
+	position:absolute;
+	opacity: 0.8;
+	background-color: grey;
+	/*width:100%;*/
+}
+/*end of name of product backend*/
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,134 @@
+/* Navigation bar*/
+
+#nav_container{
+	background-color: #B0BEC5;
+}
+
+#nav_container a{
+	background-color: #B0BEC5;
+	font-family: tahoma,arial;
+	margin-right: 1%;
+	width: 100%;
+	padding-top: 10px;
+    float: left;
+    margin-right: 1%;
+    height: 40px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+	-moz-transition:background-color 0.5s,color 0s;
+	-webkit-transition:background-color 0.5s,color 0s;
+	-o-transition:background-color 0.5s,color 0s;
+}
+
+#nav_container a:hover{
+	background-color: #F48FB1;
+	color: black;
+}
+
+@media only screen and (min-width: 500px){
+#nav_container{
+	background-color: #B0BEC5;
+}	
+#nav_container a{
+	background-color: #B0BEC5;
+	font-family: tahoma,arial;
+	margin-right: 1%;
+	width: 25%;
+	padding-top: 10px;
+    float: left;
+    margin-right: 1%;
+    height: 40px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+	-moz-transition:background-color 0.5s,color 0s;
+	-webkit-transition:background-color 0.5s,color 0s;
+	-o-transition:background-color 0.5s,color 0s;
+}
+
+#nav_container a:hover{
+	background-color: #F48FB1;
+	color: black;
+}
+}
+@media only screen and (min-width: 768px){
+#nav_container{
+	background-color: #B0BEC5;
+	height: 40px;
+}
+
+#nav_container a{
+	background-color: #B0BEC5;
+	font-family: tahoma,arial;
+	margin-right: 1%;
+	width: 14%;
+	padding-top: 10px;
+    float: left;
+    margin-right: 1%;
+    height: 40px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+	-moz-transition:background-color 0.5s,color 0s;
+	-webkit-transition:background-color 0.5s,color 0s;
+	-o-transition:background-color 0.5s,color 0s;
+}
+
+#nav_container a:hover{
+	background-color: #F48FB1;
+	color: black;
+}
+}
+#nav_container{}
+
+
+
+/*End of navigation bar*/
+
+
+/*view Product*/
+
+#viewProduct{
+	text-align: center;
+	width:25%;
+	float: left;
+	background-color: red;
+}
+#linkImg{
+	width:100%;
+	float: left;
+}
+#linkImg a:hover{
+
+}
+#linkAnchor{
+	width:100%;
+	float: left;
+	text-decoration: none;
+	color: b
+}
+
+#linkCart{
+	width:100%;
+	float: left;}
+
+/*end of view product*/
+
+
+
+
+/*Footer css*/
+
+.foot-top{
+	margin-top: 10px;
+}
+
+/*End of footer css */
+
+
+
+
+
+
+
