@@ -133,7 +133,9 @@ include_once'variables.php';
 			<p>
 				Would you like a brochure?
 				<a href="javascript:genPDF()">
-					<button class="btn btn-success">Download PDF</button>
+					<button class="btn btn-success" type="button" onclick="document.getElementById('chngTxt').innerHTML = 'Downloading...'">
+						<p id="chngTxt">Download PDF</p>
+					</button>
 				</href>
 			</p>
 		</div>
